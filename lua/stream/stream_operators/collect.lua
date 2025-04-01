@@ -1,0 +1,1 @@
+Stream.collect = Stream.map

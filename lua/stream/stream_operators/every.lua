@@ -1,0 +1,1 @@
+Stream.every = Stream.all

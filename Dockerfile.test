@@ -1,0 +1,10 @@
+FROM nickblah/luajit:2-luarocks
+
+RUN apt-get update && apt-get install -y build-essential git zip
+
+RUN luarocks install busted
+
+WORKDIR /src
+
+COPY . .
+

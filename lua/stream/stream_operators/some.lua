@@ -1,0 +1,1 @@
+Stream.some = Stream.contains
